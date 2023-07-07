@@ -143,5 +143,5 @@ while active == True and turn < tturns:
 end()
 endTime = time.time()
 time.sleep(0.2)
-scoring()
+scoring(3)
 print("time taken:", round(endTime - startTime), "seconds")
